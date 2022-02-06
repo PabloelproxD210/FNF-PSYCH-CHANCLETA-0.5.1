@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-51,
+				0
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Monster Right note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-40
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "monster down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				50
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "monster up note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				0
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Monster left note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "monster idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "saga/Fawful_FNF_assetss",
+	"position": [
+		0,
+		-25
+	],
+	"healthicon": "fawful",
+	"flip_x": false,
+	"healthbar_colors": [
+		118,
+		255,
+		140
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

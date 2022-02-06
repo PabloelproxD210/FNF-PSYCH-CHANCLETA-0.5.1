@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Fawful Bop.png"><SubTexture name="Fawful Bop 0000" x="0" y="0" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0001" x="145" y="0" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0002" x="290" y="0" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0003" x="0" y="102" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0004" x="145" y="102" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0005" x="290" y="102" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0006" x="0" y="204" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0007" x="145" y="204" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0008" x="290" y="204" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+<SubTexture name="Fawful Bop 0009" x="0" y="306" width="145" height="102" frameX="0" frameY="0" frameWidth="145" frameHeight="102" />
+</TextureAtlas>

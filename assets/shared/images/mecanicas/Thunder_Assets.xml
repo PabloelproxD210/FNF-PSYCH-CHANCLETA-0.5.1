@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Thunder_Assets.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Thunders0000" x="0" y="0" width="177" height="85" frameX="-153" frameY="-74" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0001" x="177" y="0" width="183" height="100" frameX="-146" frameY="-77" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0002" x="360" y="0" width="291" height="267" frameX="-97" frameY="-49" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0003" x="651" y="0" width="377" height="288" frameX="-54" frameY="-28" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0004" x="1028" y="0" width="473" height="800" frameX="-6" frameY="-13" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0005" x="1501" y="0" width="471" height="789" frameX="-3" frameY="-24" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0006" x="1972" y="0" width="825" height="976" frameX="0" frameY="-5" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0007" x="2797" y="0" width="822" height="931" frameX="-3" frameY="0" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0008" x="0" y="976" width="493" height="883" frameX="-29" frameY="-50" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0009" x="493" y="976" width="378" height="854" frameX="-8" frameY="-90" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0010" x="871" y="976" width="1040" height="153" frameX="-8" frameY="-769" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0011" x="1911" y="976" width="416" height="152" frameX="-632" frameY="-765" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0012" x="2327" y="976" width="729" height="154" frameX="-750" frameY="-767" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0013" x="3056" y="976" width="729" height="154" frameX="-1198" frameY="-773" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0014" x="0" y="1859" width="1041" height="153" frameX="-1454" frameY="-769" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0015" x="1041" y="1859" width="634" height="154" frameX="-2080" frameY="-756" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0016" x="1675" y="1859" width="269" height="155" frameX="-2445" frameY="-754" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0017" x="1944" y="1859" width="107" height="155" frameX="-2607" frameY="-754" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0018" x="2051" y="1859" width="0" height="0" frameX="-514" frameY="-489" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0019" x="2051" y="1859" width="0" height="0" frameX="-514" frameY="-489" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0020" x="2051" y="1859" width="0" height="0" frameX="-514" frameY="-489" frameWidth="2714" frameHeight="981"/>
+	<SubTexture name="Thunders0021" x="2051" y="1859" width="0" height="0" frameX="-514" frameY="-489" frameWidth="2714" frameHeight="981"/>
+</TextureAtlas>

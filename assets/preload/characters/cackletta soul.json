@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				185,
+				-60
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Monster Right note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-140,
+				-239
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "monster down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				87,
+				122
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "monster up note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-7
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Monster left note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "monster idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "saga/Cackletta_Soul_EXPURGATION",
+	"position": [
+		-350,
+		-200
+	],
+	"healthicon": "cackletta soul",
+	"flip_x": false,
+	"healthbar_colors": [
+		200,
+		0,
+		9
+	],
+	"camera_position": [
+		70,
+		150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

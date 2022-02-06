@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				404,
+				14
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Monster Right note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				340,
+				-165
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "monster down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				221,
+				4
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "monster up note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				209,
+				62
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Monster left note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "monster idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "saga/Cackletta2_FNF_assetss",
+	"position": [
+		0,
+		-25
+	],
+	"healthicon": "cackletta2",
+	"flip_x": false,
+	"healthbar_colors": [
+		44,
+		223,
+		107
+	],
+	"camera_position": [
+		-170,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 0.85
+}

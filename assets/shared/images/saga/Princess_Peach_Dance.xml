@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Princess Peach Dance.png"><SubTexture name="Princess Peach Dance 0000" x="0" y="0" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0001" x="398" y="0" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0002" x="796" y="0" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0003" x="1194" y="0" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0004" x="1592" y="0" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0005" x="1990" y="0" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0006" x="0" y="652" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0007" x="398" y="652" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0008" x="796" y="652" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0009" x="1194" y="652" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0010" x="1592" y="652" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0011" x="1990" y="652" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0012" x="0" y="1304" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0013" x="398" y="1304" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0014" x="796" y="1304" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0015" x="1194" y="1304" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0016" x="1592" y="1304" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0017" x="1990" y="1304" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0018" x="0" y="1956" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0019" x="398" y="1956" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0020" x="796" y="1956" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0021" x="1194" y="1956" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0022" x="1592" y="1956" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0023" x="1990" y="1956" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0024" x="0" y="2608" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0025" x="398" y="2608" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0026" x="796" y="2608" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0027" x="1194" y="2608" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0028" x="1592" y="2608" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0029" x="1990" y="2608" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0030" x="0" y="3260" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0031" x="398" y="3260" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0032" x="796" y="3260" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0033" x="1194" y="3260" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0034" x="1592" y="3260" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0035" x="1990" y="3260" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0036" x="0" y="3912" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+<SubTexture name="Princess Peach Dance 0037" x="398" y="3912" width="398" height="652" frameX="0" frameY="0" frameWidth="398" frameHeight="652" />
+</TextureAtlas>
