@@ -266,10 +266,13 @@ class PlayState extends MusicBeatState
 	var bg23232323:FlxSprite;
 	private var volarxdxdxd:Float = 0;
 	var humolol:FlxSprite;
+	var gf3213213:FlxSprite;
+	var peach:BGSprite;
 
 		//A
 	var canDodge:Bool = false;
 	var dodging:Bool = false;
+	public var jumping:Bool = false;
 
 	var ahora:Bool = false;
 
@@ -430,21 +433,17 @@ class PlayState extends MusicBeatState
 					bg.active = false;
 					add(bg);
 
-					var peach:FlxSprite = new FlxSprite(570, -55);
-					peach.frames = Paths.getSparrowAtlas('saga/Princess_Peach_Dance', 'shared');
-					peach.animation.addByPrefix('idle', 'Princess Peach Dance ', 24);
-					peach.animation.play('idle');
-					peach.scrollFactor.set(0.9, 0.9);
+					peach = new BGSprite('saga/Princess_Peach_Dance', 570, -55, 0.9, 0.9, ['Princess Peach Dance ']);
 					peach.antialiasing = true;
+					peach.updateHitbox();
 					add(peach);
 
-					var gf:FlxSprite = new FlxSprite(700, 110);
-					gf.frames = Paths.getSparrowAtlas('scenary/PrincessCastleBG/GF_ass_sets', 'shared');
-					gf.animation.addByPrefix('dance', 'GF Dancing Beat', 24);
-					gf.animation.play('dance');
-					gf.scrollFactor.set(0.9, 0.9);
-					gf.antialiasing = true;
-					add(gf);
+					gf3213213 = new FlxSprite(700, 110);
+					gf3213213.frames = Paths.getSparrowAtlas('scenary/PrincessCastleBG/GF_ass_sets', 'shared');
+					gf3213213.animation.addByPrefix('dance', 'GF Dancing Beat', 24);
+					gf3213213.scrollFactor.set(0.9, 0.9);
+					gf3213213.antialiasing = true;
+					//add(gf3213213);
 				}
 			case 'koopa':
 				{
@@ -628,6 +627,9 @@ class PlayState extends MusicBeatState
 			case 'schoolEvil':
 				var evilTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //nice
 				insert(members.indexOf(dadGroup) - 1, evilTrail);
+
+			case 'castle':
+				gf.visible = false;
 		}
 
 		var file:String = Paths.json(songName + '/dialogue'); //Checks for json/Psych Engine dialogue
@@ -682,7 +684,7 @@ class PlayState extends MusicBeatState
 		timeBar = new FlxBar(timeBarBG.x + 4, timeBarBG.y + 4, LEFT_TO_RIGHT, Std.int(timeBarBG.width - 8), Std.int(timeBarBG.height - 8), this,
 			'songPercent', 0, 1);
 		timeBar.scrollFactor.set();
-		timeBar.createFilledBar(0xFF000000, 0xFFFFFFFF);
+		reloadtimeBarColors();
 		timeBar.numDivisions = 800; //How much lag this causes?? Should i tone it down to idk, 400 or 200?
 		timeBar.alpha = 0;
 		timeBar.visible = showTime;
@@ -938,6 +940,29 @@ class PlayState extends MusicBeatState
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 
+				/*case 'cackletta':
+					var blackScreen:FlxSprite = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+					add(blackScreen);
+					blackScreen.cameras = [camHUD];
+					blackScreen.scrollFactor.set();
+					inCutscene = true;
+					var tuto1:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('tuto/tutorial_cackletta', 'shared'));
+					tuto1.setGraphicSize(Std.int(tuto1.width * 0.4));
+					tuto1.updateHitbox();
+					tuto1.screenCenter();
+					var tuto2:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('tuto/tutorial_cackletta_2', 'shared'));
+					tuto2.setGraphicSize(Std.int(tuto2.width * 0.4));
+					tuto2.updateHitbox();
+					tuto2.screenCenter();
+					tuto2.cameras = [camHUD];
+					tuto1.cameras = [camHUD];
+					new FlxTimer().start(3, function(tmr:FlxTimer)
+					{
+					
+						add(tuto1);
+						remove(tuto1); add(tuto2);
+						remove(tuto2); remove(blackScreen); startCountdown();
+					});*/
 				default:
 					startCountdown();
 			}
@@ -1015,6 +1040,11 @@ class PlayState extends MusicBeatState
 			FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
 			
 		healthBar.updateBar();
+	}
+
+	public function reloadtimeBarColors() {
+		timeBar.createFilledBar(0xFF000000, FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]));	
+		timeBar.updateBar();
 	}
 
 	public function addCharacterToList(newCharacter:String, type:Int) {
@@ -1662,19 +1692,25 @@ class PlayState extends MusicBeatState
 	{
 		var s:Int = 0;
 
-		humolol = new FlxSprite(0, 0);
+		humolol = new FlxSprite(-10, 0);
 		humolol.frames = Paths.getSparrowAtlas('mecanicas/Thunder_Assets', 'shared');
-		humolol.animation.addByPrefix('a', 'Thunders', 21, false);
+		humolol.animation.addByPrefix('a', 'Thunders', 18, false);
 		humolol.animation.play('a', true);
-		add(humolol);
-		canDodge = true;
+		//humolol.visible = true;
+		//canDodge = true;
 
 		humolol.animation.finishCallback = function(a:String)
 		{
 			remove(humolol);
 		}
-
 	
+		new FlxTimer().start(0.855555, function(tmr:FlxTimer)
+		{
+			if (!jumping){
+				health -= 0.78;
+				songMisses++;
+			}
+		});
 	}
 
 	function sortByShit(Obj1:Note, Obj2:Note):Int
@@ -1875,15 +1911,10 @@ class PlayState extends MusicBeatState
 	override public function update(elapsed:Float)
 	{
 		volarxdxdxd += 0.03;
-
-		if (humolol.animation.curAnim.curFrame == 25 && !dodging){
-			health = 0;
-		}
-
 		
-		if (FlxG.keys.justPressed.SPACE && canDodge)
+		if (controls.DODGE && !jumping)
 		{
-			dodging = true;
+			jumping = true;
 
 			if(boyfriend.animation.getByName('jump') != null) {
 				boyfriend.playAnim('jump', true);
@@ -1891,8 +1922,7 @@ class PlayState extends MusicBeatState
 			}
 			boyfriend.animation.finishCallback = function(a:String)
 			{
-				dodging = false;
-				canDodge = false;
+				jumping = false;
 			}
 		}
 		
@@ -2477,6 +2507,8 @@ class PlayState extends MusicBeatState
 		switch(eventName) {
 			case 'Cakletta':
 				cakletta(true);
+				FlxG.camera.shake(0.01525,0.455);
+				add(humolol);
 			case 'Hey!':
 				var value:Int = 2;
 				switch(value1.toLowerCase().trim()) {
@@ -2785,6 +2817,7 @@ class PlayState extends MusicBeatState
 						setOnLuas('gfName', gf.curCharacter);
 				}
 				reloadHealthBarColors();
+				reloadtimeBarColors(); //tiempo, barra
 			
 			case 'BG Freaks Expression':
 				if(bgGirls != null) bgGirls.swapDanceType();
@@ -4080,6 +4113,8 @@ class PlayState extends MusicBeatState
 					trainCooldown = FlxG.random.int(-4, 0);
 					trainStart();
 				}
+			case 'castle':
+				peach.dance();
 		}
 
 		if (curStage == 'spooky' && FlxG.random.bool(10) && curBeat > lightningStrikeBeat + lightningOffset)

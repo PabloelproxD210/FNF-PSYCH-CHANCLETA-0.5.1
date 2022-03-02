@@ -205,7 +205,7 @@
 				102
 			],
 			"anim": "jump",
-			"fps": 24,
+			"fps": 30,
 			"name": "BF JUMP",
 			"indices": []
 		}
