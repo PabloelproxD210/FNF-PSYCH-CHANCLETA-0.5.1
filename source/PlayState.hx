@@ -269,9 +269,7 @@ class PlayState extends MusicBeatState
 	var gf3213213:FlxSprite;
 	var peach:BGSprite;
 
-		//A
-	var canDodge:Bool = false;
-	var dodging:Bool = false;
+	//A
 	public var jumping:Bool = false;
 
 	var ahora:Bool = false;
