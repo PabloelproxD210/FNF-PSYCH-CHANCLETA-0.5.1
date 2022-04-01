@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				10
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "CacklEXIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				52,
+				70
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "CacklEXLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				332,
+				-14
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "CacklEXRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				87,
+				105
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "CacklEXUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				260,
+				-128
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "CacklEXDown",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "saga/CacklettaEX_FNF_assetss",
+	"position": [
+		-190,
+		-50
+	],
+	"healthicon": "cackletta soul",
+	"flip_x": false,
+	"healthbar_colors": [
+		209,
+		0,
+		0
+	],
+	"camera_position": [
+		110,
+		100
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

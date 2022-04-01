@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CacklettaEX_FNF_assetss.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CacklEXDown0000" x="3" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0001" x="3" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0002" x="1133" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0003" x="2263" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0004" x="3393" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0005" x="3393" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0006" x="4523" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0007" x="4523" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0008" x="5653" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0009" x="6783" y="3" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0010" x="3" y="815" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0011" x="1133" y="815" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0012" x="1133" y="815" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0013" x="1133" y="815" width="1125" height="807"/>
+	<SubTexture name="CacklEXDown0014" x="1133" y="815" width="1125" height="807"/>
+	<SubTexture name="CacklEXIdle0000" x="2263" y="815" width="857" height="987"/>
+	<SubTexture name="CacklEXIdle0001" x="3125" y="815" width="857" height="987"/>
+	<SubTexture name="CacklEXIdle0002" x="3987" y="815" width="857" height="975" frameX="0" frameY="-12" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0003" x="3987" y="815" width="857" height="975" frameX="0" frameY="-12" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0004" x="4849" y="815" width="857" height="976" frameX="0" frameY="-11" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0005" x="5711" y="815" width="857" height="976" frameX="0" frameY="-11" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0006" x="6573" y="815" width="857" height="976" frameX="0" frameY="-11" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0007" x="6573" y="815" width="857" height="976" frameX="0" frameY="-11" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0008" x="3" y="1807" width="857" height="976" frameX="0" frameY="-11" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0009" x="3" y="1807" width="857" height="976" frameX="0" frameY="-11" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0010" x="865" y="1807" width="857" height="975" frameX="0" frameY="-12" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0011" x="1727" y="1807" width="857" height="975" frameX="0" frameY="-12" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0012" x="2589" y="1807" width="857" height="975" frameX="0" frameY="-12" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0013" x="2589" y="1807" width="857" height="975" frameX="0" frameY="-12" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXIdle0014" x="3451" y="1807" width="857" height="977" frameX="0" frameY="-10" frameWidth="857" frameHeight="987"/>
+	<SubTexture name="CacklEXLeft0000" x="4313" y="1807" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0001" x="4313" y="1807" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0002" x="5524" y="1807" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0003" x="6735" y="1807" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0004" x="3" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0005" x="3" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0006" x="1214" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0007" x="1214" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0008" x="2425" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0009" x="2425" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0010" x="3636" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0011" x="3636" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0012" x="4847" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0013" x="6058" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXLeft0014" x="6058" y="2872" width="1206" height="1060"/>
+	<SubTexture name="CacklEXRight0000" x="3" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0001" x="3" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0002" x="1017" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0003" x="1017" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0004" x="2031" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0005" x="3045" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0006" x="4059" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0007" x="4059" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0008" x="5073" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0009" x="6087" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0010" x="7101" y="3937" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0011" x="3" y="4874" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0012" x="1017" y="4874" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0013" x="1017" y="4874" width="1009" height="932"/>
+	<SubTexture name="CacklEXRight0014" x="2031" y="4874" width="1009" height="932"/>
+	<SubTexture name="CacklEXUp0000" x="3045" y="4874" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0001" x="3045" y="4874" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0002" x="3863" y="4874" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0003" x="4681" y="4874" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0004" x="5499" y="4874" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0005" x="5499" y="4874" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0006" x="6317" y="4874" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0007" x="7135" y="4874" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0008" x="3" y="5997" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0009" x="3" y="5997" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0010" x="821" y="5997" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0011" x="821" y="5997" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0012" x="821" y="5997" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0013" x="821" y="5997" width="813" height="1118"/>
+	<SubTexture name="CacklEXUp0014" x="821" y="5997" width="813" height="1118"/>
+</TextureAtlas>
