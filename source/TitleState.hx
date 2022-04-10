@@ -259,7 +259,7 @@ class TitleState extends MusicBeatState
 		
 		add(bg);
 
-		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
+		logoBl = new FlxSprite(2, -5);
 		
 		
 		#if (desktop && MODS_ALLOWED)

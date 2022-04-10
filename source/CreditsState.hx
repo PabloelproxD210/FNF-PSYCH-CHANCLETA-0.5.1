@@ -79,19 +79,21 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Vs Cackletta'],
+			['Superstar Team'],
 			['LA MAQUINA AZUL',			'patron',			'Director / Artist',					'https://twitter.com/maquinaazul237?t=FWe2Yd0hR5eb3NEPFIS-LA&s=09',	'0028ff'],
 			['Chocolejo',				'chocolejo',		'Artist',					'https://twitter.com/chocolejomain',	'ac9dff'],
 			['Golden Diossito',			'Golden Diossito',	'Artist',					'https://twitter.com/GoldenDiossito',	'ffbb00'],
 			['izukx',					'izukx',			'Artist',					'',										'ffbb00'],
 			['Isetaツ',					'Iseta',			'Artist',					'',										'3eff97'],
-			['M.R.Z.',					'mrz',				'Programmer',				'https://twitter.com/MRZ09YT',			'e25557'],
+			['Lebasth',					'icon-basth',		'Artist',					'https://twitter.com/Le_Basth',			'294476'],
 			['PabloelproxD210',			'vaso',				'Programmer',				'https://twitter.com/PabloElMsProv1',	'eaf0ff'],
-			['Chasetodie10',			'chase',			'Programmer',				'',										'ff483e'],
+			['Ben',						'ben',				'Programmer',				'https://twitter.com/art_keny',			'a9a9a9'],
 			['Naxlicia',				'naxoatwork',		'Composer',					'https://twitter.com/NaxoAtWork?t=7SnoocT_gpG4SUTCGNhFYA&s=09',	'7d19a1'],
 			['Tottisw',					'Tottisw',			'Tester',					'https://twitter.com/tottisw2?s=21',	'ff5800'],
 			['EleIsDead',				'ele',				'Composer',					'',										'eaf0ff'],
 			['Oliver',					'oliver_icon',		'Charter',					'',										'633178'],
+			['Nines',					'NineS',			'Charter',					'',										'363636'],
+
 			['Banbuds',					'banbuds',			'Tricky mod',				'https://twitter.com/Banbuds',			'c2ced6'],
 			['Jads',					'jads_icon',		'Expurgation ',				'https://twitter.com/Aw3somejds?t=KzO5fE-ZiNAdUbpBO_QHGw&s=09',			'5cbb81'],
 			[''],
