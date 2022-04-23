@@ -80,14 +80,14 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Superstar Team'],
-			['LA MAQUINA AZUL',			'patron',			'Director / Artist',		'https://twitter.com/maquinaazul237?t=FWe2Yd0hR5eb3NEPFIS-LA&s=09',	'0028ff'],
+			['LA MAQUINA AZUL',			'patron',			'Director / Artist',		'@maquinazul_arts',	'0028ff'],
 			['Chocolejo',				'chocolejo',		'Artist',					'https://twitter.com/chocolejomain',	'ac9dff'],
 			['Golden Diossito',			'Golden Diossito',	'Artist',					'https://twitter.com/GoldenDiossito',	'ffbb00'],
 			['Isetaツ',					'Iseta',			'Artist',					'',										'3eff97'],
-			['Lebasth',					'icon-basth',		'Artist',					'https://gamebanana.com/members/2079118',			'294476'],
+			['LeBasth',					'icon-basth',		'Artist',					'https://gamebanana.com/members/2079118',			'294476'],
 			['PabloelproxD210',			'vaso',				'Programmer',				'https://twitter.com/PabloElMsProv1',	'eaf0ff'],
 			['Ben',						'ben',				'Programmer',				'',			'a9a9a9'],
-			['Naxlicia',				'naxoatwork',		'Composer',					'https://twitter.com/NaxoAtWork?t=7SnoocT_gpG4SUTCGNhFYA&s=09',	'7d19a1'],
+			['NaxoArtWork',				'naxoatwork',		'Composer',					'https://twitter.com/NaxoAtWork?t=7SnoocT_gpG4SUTCGNhFYA&s=09',	'7d19a1'],
 			['EleIsDead',				'ele',				'Composer',					'',										'eaf0ff'],
 			['Nines',					'NineS',			'Charter',					'https://gamebanana.com/members/2031444',										'363636'],
 
