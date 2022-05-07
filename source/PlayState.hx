@@ -265,14 +265,16 @@ class PlayState extends MusicBeatState
 	//mod
 	var bg23232323:FlxSprite;
 	private var volarxdxdxd:Float = 0;
-	var humolol:FlxSprite;
+	//var humolol:FlxSprite;
 	var gf3213213:FlxSprite;
+	var fawful:FlxSprite;
 	var peach:BGSprite;
+	var toads:FlxSprite;
 
 	//A
-	public var jumping:Bool = false;
+	//public var jumping:Bool = false;
 
-	var ahora:Bool = false;
+	//var ahora:Bool = false;
 
 	override public function create()
 	{
@@ -441,7 +443,26 @@ class PlayState extends MusicBeatState
 					gf3213213.animation.addByPrefix('dance', 'GF Dancing Beat', 24);
 					gf3213213.scrollFactor.set(0.9, 0.9);
 					gf3213213.antialiasing = true;
-					//add(gf3213213);
+					gf3213213.animation.play('dance');
+					add(gf3213213);
+
+					fawful = new FlxSprite(-300, 300);
+					fawful.frames = Paths.getSparrowAtlas('scenary/PrincessCastleBG/fawful', 'shared');
+					fawful.setGraphicSize(Std.int(fawful.width * 0.7));
+					fawful.animation.addByPrefix('dance', 'Fawful Dance', 24);
+					fawful.scrollFactor.set(0.9, 0.9);
+					fawful.antialiasing = true;
+					fawful.animation.play('dance');
+					add(fawful);
+
+					toads = new FlxSprite(-1500, 500);
+					toads.frames = Paths.getSparrowAtlas('scenary/PrincessCastleBG/toads_bump', 'shared');
+					toads.setGraphicSize(Std.int(fawful.width * 3.3));
+					toads.animation.addByPrefix('dance', 'Toads front bg', 24);
+					toads.scrollFactor.set(0.9, 0.9);
+					toads.antialiasing = true;
+					toads.animation.play('dance');
+					add(toads);
 				}
 			case 'koopa':
 				{
@@ -1685,31 +1706,34 @@ class PlayState extends MusicBeatState
 		return 0;
 	}
 
-	//terminar A 
-	function cakletta(first:Bool):Void
-	{
-		var s:Int = 0;
+	//terminar A (agregar en la update :'v)
+	//	function cakletta(first:Bool):Void
+	//	{
+	//		var s:Int = 0;
 
-		humolol = new FlxSprite(-10, 0);
-		humolol.frames = Paths.getSparrowAtlas('mecanicas/Thunder_Assets', 'shared');
-		humolol.animation.addByPrefix('a', 'Thunders', 18, false);
-		humolol.animation.play('a', true);
+	//		humolol = new FlxSprite(-10, 0);
+	//		humolol.frames = Paths.getSparrowAtlas('mecanicas/Thunder_Assets', 'shared');
+	//		humolol.animation.addByPrefix('a', 'Thunders', 18, false);
+	//		add(humolol);
+	//		humolol.animation.play('a', true);
 		//humolol.visible = true;
 		//canDodge = true;
 
-		humolol.animation.finishCallback = function(a:String)
-		{
-			remove(humolol);
-		}
+	//		humolol.animation.finishCallback = function(a:String)
+	//		{
+	//			humolol.visible = false;
+	//			remove(humolol);
+	//		}
 	
-		new FlxTimer().start(0.855555, function(tmr:FlxTimer)
-		{
-			if (!jumping){
-				health -= 0.78;
-				songMisses++;
-			}
-		});
-	}
+	//		new FlxTimer().start(0.855555, function(tmr:FlxTimer)
+	//		{
+	//			if (!jumping){
+	//				health -= 0.30;
+	//				boyfriend.playAnim('fail', true);
+	//				songMisses++;
+	//			}
+	//		});
+	//	}
 
 	function sortByShit(Obj1:Note, Obj2:Note):Int
 	{
@@ -1908,21 +1932,21 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		volarxdxdxd += 0.03;
+		//volarxdxdxd += 0.03;
 		
-		if (controls.DODGE && !jumping)
-		{
-			jumping = true;
+		//if (controls.DODGE && !jumping)
+		//{
+		//	jumping = true;
 
-			if(boyfriend.animation.getByName('jump') != null) {
-				boyfriend.playAnim('jump', true);
-				boyfriend.specialAnim = true;
-			}
-			boyfriend.animation.finishCallback = function(a:String)
-			{
-				jumping = false;
-			}
-		}
+		//	if(boyfriend.animation.getByName('jump') != null) {
+		//		boyfriend.playAnim('jump', true);
+		//		boyfriend.specialAnim = true;
+		//	}
+		//	boyfriend.animation.finishCallback = function(a:String)
+		//	{
+		//		jumping = false;
+		//	}
+		//}
 		
 		/*if (FlxG.keys.justPressed.NINE)
 		{
@@ -2503,10 +2527,9 @@ class PlayState extends MusicBeatState
 
 	public function triggerEventNote(eventName:String, value1:String, value2:String) {
 		switch(eventName) {
-			case 'Cakletta':
-				cakletta(true);
-				FlxG.camera.shake(0.01525,0.455);
-				add(humolol);
+		//	case 'Cakletta':
+		//		cakletta(true);
+		//		FlxG.camera.shake(0.01525,0.455);
 			case 'Hey!':
 				var value:Int = 2;
 				switch(value1.toLowerCase().trim()) {
