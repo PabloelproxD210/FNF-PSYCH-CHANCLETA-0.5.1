@@ -462,7 +462,7 @@ class PlayState extends MusicBeatState
 					toads.scrollFactor.set(0.9, 0.9);
 					toads.antialiasing = true;
 					toads.animation.play('dance');
-					add(toads);
+					//add(toads);
 				}
 			case 'koopa':
 				{
@@ -508,6 +508,9 @@ class PlayState extends MusicBeatState
 
 		add(dadGroup);
 		add(boyfriendGroup);
+
+		if (curStage == 'castle')
+			add(toads);
 		
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
