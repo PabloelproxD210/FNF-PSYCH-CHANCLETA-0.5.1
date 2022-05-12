@@ -455,7 +455,7 @@ class PlayState extends MusicBeatState
 					fawful.animation.play('dance');
 					add(fawful);
 
-					toads = new FlxSprite(-1500, 500);
+					toads = new FlxSprite(-1000, 600);
 					toads.frames = Paths.getSparrowAtlas('scenary/PrincessCastleBG/toads_bump', 'shared');
 					toads.setGraphicSize(Std.int(fawful.width * 3.3));
 					toads.animation.addByPrefix('dance', 'Toads front bg', 24);
