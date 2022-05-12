@@ -4,12 +4,13 @@
 		["My-name-is-fawful", "fawful", [118, 255, 140]],
 		["Cackletta", "cackletta2", [44, 223, 107]]
 	],
-
+	
 	"weekCharacters": [
 		"dad",
 		"bf",
 		"gf"
 	],
+
 	"weekBackground": "stage",
 
 	"storyName": "Daddy Dearest",
