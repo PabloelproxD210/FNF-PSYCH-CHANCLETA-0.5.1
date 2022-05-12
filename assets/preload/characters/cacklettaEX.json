@@ -14,28 +14,6 @@
 		{
 			"loop": false,
 			"offsets": [
-				52,
-				70
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "CacklEXLeft",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				332,
-				-14
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "CacklEXRight",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
 				87,
 				105
 			],
@@ -54,6 +32,28 @@
 			"fps": 24,
 			"name": "CacklEXDown",
 			"indices": []
+		},
+		{
+			"offsets": [
+				72,
+				46
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "CacklEXLeft"
+		},
+		{
+			"offsets": [
+				372,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "CacklEXRight"
 		}
 	],
 	"no_antialiasing": false,
