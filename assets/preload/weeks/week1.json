@@ -1,22 +1,44 @@
 {
-	"songs": [
-		["Come-on", "cackletta1", [218, 255, 51]],
-		["My-name-is-fawful", "fawful", [118, 255, 140]],
-		["Cackletta", "cackletta2", [44, 223, 107]]
-	],
-
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
+	"storyName": "",
+	"difficulties": "hard",
+	"hideFreeplay": false,
 	"weekBackground": "stage",
-
-	"storyName": "Daddy Dearest",
 	"weekBefore": "tutorial",
-	"weekName": "Week 1",
 	"startUnlocked": true,
-
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Come-on",
+			"cackletta1",
+			[
+				218,
+				255,
+				51
+			]
+		],
+		[
+			"My-name-is-fawful",
+			"fawful",
+			[
+				118,
+				255,
+				140
+			]
+		],
+		[
+			"Cackletta",
+			"cackletta2",
+			[
+				215,
+				0,
+				255
+			]
+		]
+	],
+	"weekName": "Week 1"
 }

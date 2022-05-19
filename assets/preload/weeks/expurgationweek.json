@@ -1,4 +1,16 @@
 {
+	"storyName": "mevanabanearayudaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
 	"songs": [
 		[
 			"Expurgation",
@@ -10,22 +22,10 @@
 			]
 		]
 	],
-	"hideFreeplay": false,
-	"weekBackground": "",
-	"difficulties": "Hard",
 	"weekCharacters": [
 		"",
 		"",
 		""
 	],
-	"storyName": "mevanabanearayudaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-	"weekName": "olagentedeyt",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": true,
-	"weekBefore": "tutorial",
-	"startUnlocked": false
+	"weekName": "olagentedeyt"
 }
