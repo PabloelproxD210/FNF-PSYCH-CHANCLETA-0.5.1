@@ -2,6 +2,18 @@
 	"storyName": "",
 	"difficulties": "hard",
 	"hideFreeplay": false,
+	"songs": [
+		["Come-on", "cackletta1", [218, 255, 51]],
+		["My-name-is-fawful", "fawful", [118, 255, 140]],
+		["Cackletta", "cackletta2", [44, 223, 107]]
+	],
+	
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
